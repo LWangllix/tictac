@@ -1,0 +1,42 @@
+*,*::after,*::before{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+#box{
+    text-align: center;
+    font-size: 100px;
+    font-weight: bold;
+     font-family: Arial, Helvetica, sans-serif;
+}
+.row{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.column{
+    display: inline-block;
+    border: 1px solid black;
+    height: 100px;
+ width: 100px;
+ margin: 0;
+ padding: 0;
+}
+
+
+button{
+    background-color: black;
+    width: 100px;
+    height: 100px;
+    padding: 20px;
+    font-weight: bold;
+    color: white;
+    font-size: 50px;
+}
+
+
+
